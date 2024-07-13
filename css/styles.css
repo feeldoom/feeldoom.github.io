@@ -4,13 +4,11 @@
 html,
 body {
     font-family: 'Ubuntu Mono', sans-serif;
-    background-color: #17153B;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../media/back.jpg'); */
+    background: #17153B;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
 a,
