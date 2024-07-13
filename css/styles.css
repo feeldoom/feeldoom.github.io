@@ -4,9 +4,8 @@
 html,
 body {
     font-family: 'Ubuntu Mono', sans-serif;
-    background: #17153B;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #242424;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../media/back.jpg'); */
     display: flex;
     flex-direction: column;
 }
@@ -175,7 +174,7 @@ h3 {
     margin-top: 20px;
     text-align: center;
     background: #1d1d1d9d;
-
+    text-align: left;
     padding: 10px;
     width: max-content;
     border-radius: 10px;
