@@ -4,10 +4,12 @@
 html,
 body {
     font-family: 'Ubuntu Mono', sans-serif;
-    background: #242424;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../media/back.jpg'); */
-    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../media/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
+    display: flex;
+    height: 100vh;
 }
 
 a,
@@ -22,6 +24,14 @@ h3 {
     margin-bottom: 0;
 }
 
+#content {
+    border: 2px #2E236C solid;
+    border-radius: 10px;
+}
+
+#also #content #headDivContain:before {
+    content: "> ";
+}
 
 #header {
     display: flex;
@@ -35,6 +45,7 @@ h3 {
     align-content: center;
 
     border-radius: 10px;
+    border: 2px #2E236C solid;
 }
 
 #header div {
@@ -140,7 +151,6 @@ h3 {
     border-radius: 10px;
     width: max-content;
     background: #1d1d1d9d;
-    font-size: 18px;
     display: flex;
     flex-direction: column;
 }
@@ -155,40 +165,16 @@ h3 {
     border-radius: 10px;
 }
 
-#also {
-    display: flex;
-    flex-direction: column;
-
-}
-
-#also h3 {
-    background: #1d1d1d9d;
-
-    padding: 10px;
-    width: max-content;
-    border-radius: 10px;
-    height: fit-content;
-}
-
-#also-friends {
-    margin-top: 20px;
-    text-align: center;
-    background: #1d1d1d9d;
-    text-align: left;
-    padding: 10px;
-    width: max-content;
-    border-radius: 10px;
-    height: fit-content;
-}
-
 #footer {
     margin-top: 40px;
     text-align: center;
+    
 }
 
 #footer span {
     background: #1d1d1d9d;
-
+    border: 2px #2E236C solid;
+    border-radius: 10px;
     padding: 10px;
     border-radius: 10px;
 }
