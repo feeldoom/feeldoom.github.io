@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', (_event) => {
     function updateNews() {
         const newsTicker = document.getElementById('news-ticker');
         const newsItems = [
+            "[07/14/2024] Changed primary colors",
             "[07/13/24] Website created"
         ];
         let newsIndex = 0;
