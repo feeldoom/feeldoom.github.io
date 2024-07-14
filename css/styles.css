@@ -5,8 +5,12 @@ html,
 body {
     font-family: 'Ubuntu Mono', sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../media/back2.jpg');
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
     flex-direction: column;
     display: flex;
     height: 100vh;
@@ -98,6 +102,8 @@ h3 {
 .page-wrapper {
     justify-content: center;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 930px;
 }
 
