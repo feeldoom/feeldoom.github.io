@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (_event) => {
             newsIndex = (newsIndex + 1) % newsItems.length;
         }
 
-        setInterval(showNextNews, 5500);
+        newsTicker.addEventListener('animationiteration', showNextNews);
         showNextNews();
     }
 
