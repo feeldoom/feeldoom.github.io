@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (_event) => {
             newsIndex = (newsIndex + 1) % newsItems.length;
         }
 
-        setInterval(showNextNews, 5000);
+        setInterval(showNextNews, 10000);
         showNextNews();
     }
 
