@@ -19,7 +19,8 @@ body {
 a,
 p,
 h3,
-span {
+span,
+table {
     color: rgb(175, 175, 175)
 }
 
@@ -83,6 +84,8 @@ h3 {
 }
 
 .under-construct {
+    position: relative;
+    display: inline-block;
     background: #405D72;
 }
 
@@ -137,6 +140,26 @@ h3 {
     100% {
         transform: translateX(-100%);
     }
+}
+
+#repos-list {
+    margin-top: 5px;
+}
+
+#repos-list div {
+    margin-bottom: 5px;
+}
+
+#repos-list div a {
+    text-decoration: none;
+}
+
+#repos-list div a:hover {
+    text-decoration: underline;
+}
+
+#repos-list div:nth-last-child(1) {
+    margin-bottom: 0px;
 }
 
 #main {
